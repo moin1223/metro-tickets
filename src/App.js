@@ -13,7 +13,6 @@ import PrivateRoute from "./Components/Login/PrivateRoute"
 import { createContext, useState } from 'react';
 export const UserContext = createContext();
 
-
 function App() {
   const[loggedInUser,SetLoggedInUser]=useState({})
   const[search,setSearch]=useState({})

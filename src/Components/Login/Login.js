@@ -38,7 +38,7 @@ const Login = () => {
                 <h3 className="text-white">Login</h3><br />
 
                 <button className="login-btn" onClick={handleGoogleSignIn}>
-                    <img src="https://img.icons8.com/color/48/000000/google-logo.png" />
+                    <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="" />
                     <b className="float-sm-end">Continue with Google</b>
                 </button>
 
