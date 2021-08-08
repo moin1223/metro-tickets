@@ -6,7 +6,7 @@ import SearchResult from './SearchResult/SearchResult';
 import { UserContext } from '../../App';
 
 const Destination = () => {
-    const [search] = useContext(UserContext);
+    const [search,setSearch] = useContext(UserContext);
     return (
         <Container>
             <Row>
