@@ -1,0 +1,8 @@
+.banner
+{
+    position: relative;
+    background: url('https://i.ibb.co/qjDfF54/image-7.png');
+    background-size:cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
