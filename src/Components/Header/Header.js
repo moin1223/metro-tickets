@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {
   const user = JSON.parse(localStorage.getItem('user'));
-  console.log(user)
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
