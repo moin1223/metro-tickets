@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {
-  // const user = JSON.parse(localStorage.getItem('user'));
-  // console.log(user)
+  const user = JSON.parse(localStorage.getItem('user'));
+  console.log(user)
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -23,7 +23,7 @@ const Header = () => {
                 <Link className="nav-link active me-5  text-white" aria-current="page" to="/login"><b>Login</b></Link>
               </li>
               <li className="nav-item">
-                {/* <p className="nav-link active me-5" style={{ color: "#CE4EC7" }}><b>{user.name}</b></p> */}
+                <p className="nav-link active me-5" style={{ color: "#CE4EC7" }}><b>{user?.name}</b></p>
               </li>
 
             </ul>
