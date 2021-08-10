@@ -8,8 +8,8 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <img style={{ height: "60px", background: "white", borderRadius: "5px" }} src="https://i.ibb.co/mzdSvxh/Group-33141.png" alt="" className="navbar-brand ms-5" href="#" />
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button className="btn btn-primary" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon btn btn-primary"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
